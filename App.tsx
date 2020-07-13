@@ -9,21 +9,11 @@
  */
 
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
-  }
-});
+import Home from './src/ts/pages/Home/index';
 
 const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Hello, world!</Text>
-    </View>
+    <Home />
   );
 };
 
