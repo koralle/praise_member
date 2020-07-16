@@ -9,11 +9,12 @@
  */
 
 import React from 'react';
-import Home from './src/ts/pages/Home/index';
+import Home from './src/ts/components/pages/Home';
+import Routes from './src/ts/routes';
 
 const App = () => {
   return (
-    <Home />
+    <Routes />
   );
 };
 
